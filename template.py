@@ -1,30 +1,30 @@
 import os
 from pathlib import Path
 
-project_name = "project_name"
+PROJECT_NAME = "project_name"
 
 list_of_files = [
 
-    f"{project_name}/__init__.py",
-    f"{project_name}/components/__init__.py",
-    f"{project_name}/components/data_ingestion.py",  
-    f"{project_name}/components/data_validation.py",
-    f"{project_name}/components/data_transformation.py",
-    f"{project_name}/components/model_trainer.py",
-    f"{project_name}/components/model_evaluation.py",
-    f"{project_name}/components/model_pusher.py",
-    f"{project_name}/configuration/__init__.py",
-    f"{project_name}/constants/__init__.py",
-    f"{project_name}/entity/__init__.py",
-    f"{project_name}/entity/config_entity.py",
-    f"{project_name}/entity/artifact_entity.py",
-    f"{project_name}/exception/__init__.py",
-    f"{project_name}/logger/__init__.py",
-    f"{project_name}/pipline/__init__.py",
-    f"{project_name}/pipline/training_pipeline.py",
-    f"{project_name}/pipline/prediction_pipeline.py",
-    f"{project_name}/utils/__init__.py",
-    f"{project_name}/utils/main_utils.py",
+    f"{PROJECT_NAME}/__init__.py",
+    f"{PROJECT_NAME}/components/__init__.py",
+    f"{PROJECT_NAME}/components/data_ingestion.py",  
+    f"{PROJECT_NAME}/components/data_validation.py",
+    f"{PROJECT_NAME}/components/data_transformation.py",
+    f"{PROJECT_NAME}/components/model_trainer.py",
+    f"{PROJECT_NAME}/components/model_evaluation.py",
+    f"{PROJECT_NAME}/components/model_pusher.py",
+    f"{PROJECT_NAME}/configuration/__init__.py",
+    f"{PROJECT_NAME}/constants/__init__.py",
+    f"{PROJECT_NAME}/entity/__init__.py",
+    f"{PROJECT_NAME}/entity/config_entity.py",
+    f"{PROJECT_NAME}/entity/artifact_entity.py",
+    f"{PROJECT_NAME}/exception/__init__.py",
+    f"{PROJECT_NAME}/logger/__init__.py",
+    f"{PROJECT_NAME}/pipline/__init__.py",
+    f"{PROJECT_NAME}/pipline/training_pipeline.py",
+    f"{PROJECT_NAME}/pipline/prediction_pipeline.py",
+    f"{PROJECT_NAME}/utils/__init__.py",
+    f"{PROJECT_NAME}/utils/main_utils.py",
     "app.py",
     "requirements.txt",
     "Dockerfile",
@@ -45,4 +45,4 @@ for filepath in list_of_files:
         with open(filepath, "w") as f:
             pass
     else:
-        print(f"file is already present at: {filepath}")
+        print(f"file is already present at: {filepath}\n")
