@@ -13,7 +13,7 @@ This repository can be used to create a modular and well-managed structure for M
 6) Install requirements.txt file by running 'pip install -r requirements.txt'. This command will install the required libraries and enable your project as a package using setup.py
 
 ## Use of different files:
-# 'Template.py':
+# Template.py:
 - This script is used to create the initial project structure and files. Modify it to fit the specific needs of your project.
 # Setup.py:
 - This file is used to enable your project as a package. It includes metadata about your project and its dependencies.
